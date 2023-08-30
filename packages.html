@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="book.css">
+</head>
+<body>
+    <header>
+        <section class="hed">
+            <nav>
+                <div class="logo">
+                    <img src="imges/icons8-logo-64.png" alt="">
+        <span>tawakal gym</span>
+                </div>
+        <ul id="nav">
+            <img id="close" src="imges/icons8-arrow-30 (1).png" alt="">
+            <li><a class="active" href="#">home</a></li>
+            <li><a href="#">program</a></li>
+            <li><a href="#">choose us</a></li>
+            <li><a href="#">packages</a></li>
+            <li><a class="register"  href="#">register now</a></li>
+        </ul>
+        <img src="imges/icons8-menu-30.png" alt="" id="menu">
+    </nav>
+    <div class="hedcontent">
+        <div class="left">
+          <h1><span> make your</span> <br> body shape</h1>
+          <p>creat account to monitore your progress everyday</p>
+          <a href="index.html"><button class="batton">back home</button></a>
+        </div>
+        <div class="right">
+
+        </div>
+    </div>
+        </section>
+         
+    </header>
+   <main>
+ 
+    <section id="pakages">
+        <div class="packages1">
+        <div class="toppackage">
+            <h2>basic package</h2>
+            <h1> ksh.1000/mo</h1> 
+             <div class="star">
+                <img src="imges/img1 (3).png" alt="">
+                <img src="imges/img1 (3).png" alt="">
+                <img src="imges/img1 (3).png" alt="">
+               
+             </div>
+             <p class="moreonpackages">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium itaque repellendus cum deserunt voluptatibus, voluptate maiores corrupti distinctio dicta esse blanditiis est officiis nam, rem beatae. Debitis recusandae dolorem totam.</p>
+             <a href="register.html"><button class="batton">register </button></a>
+        </div>
+          
+        </div>
+
+        <div class="packages1">
+            <div class="toppackage">
+                  <h2>premium package</h2>
+                 <h1>ksh.5000/mo</h1> 
+                 <div class="star">
+                    <img src="imges/img1 (3).png" alt="">
+                    <img src="imges/img1 (3).png" alt="">
+                    <img src="imges/img1 (3).png" alt="">
+                    <img src="imges/img1 (3).png" alt="">
+                    
+                 </div>
+                 <p class="moreonpackages">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium itaque repellendus cum deserunt voluptatibus, voluptate maiores corrupti distinctio dicta esse blanditiis est officiis nam, rem beatae. Debitis recusandae dolorem totam.</p>
+                 <a href="register.html"><button class="batton">register </button></a>
+            </div>
+              
+            </div>
+
+            <div class="packages1">
+                <div class="toppackage">
+                    <h2>diamond package</h2>
+                     <h1>ksh.10000/mo</h1>  
+                     <div class="star">
+                        <img src="imges/img1 (3).png" alt="">
+                        <img src="imges/img1 (3).png" alt="">
+                        <img src="imges/img1 (3).png" alt="">
+                        <img src="imges/img1 (3).png" alt="">
+                        <img src="imges/img1 (3).png" alt="">
+                     </div>
+                     <p class="moreonpackages">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium itaque repellendus cum deserunt voluptatibus, voluptate maiores corrupti distinctio dicta esse blanditiis est officiis nam, rem beatae. Debitis recusandae dolorem totam.</p>
+                     <a href="register.html"><button class="batton">register </button></a>
+                </div>
+                  
+                </div>
+        
+        
+    </section>
+ <section id="footer">
+    <footer>
+        <div class="subscribe">
+        <p>input your number lets talk your weight loss</p>
+         <form action="">
+            <input type="email" name="whatsapp" id="" placeholder="whatsapp number">
+            <input type="submit" value=" submit" class="batn">
+         </form>
+        </div>
+        <div class="otherlinks">
+            <div class="leftfooter">
+              <h4>services</h4>
+         <a href="#">flex muscle</a>
+         <a href="#">cardio exercise</a>
+         <a href="#">basic yoga</a>
+         <a href="#">weight lifting</a>   
+            </div>
+         <div class="rightfooter">
+            <h4>pricing</h4>
+         <a href="#">basic level</a>
+         <a href="#">premium level</a>
+         <a href="#">diamond level</a>
+         </div>
+         <div class="compny">
+            <h4>company</h4>
+         <a href="#">about us</a>
+         <a href="#">learn more</a>
+         <a href="#">customers</a>
+         </div>
+         <div class="social">
+            <img src="imges/icons8-twitter-24.png" alt="">
+            <img src="imges/icons8-whatsapp-24.png" alt="">
+            <img src="imges/icons8-pinterest-24.png" alt="">
+            <img src="imges/icons8-whatsapp-24.png" alt="">
+         </div>
+        </div>
+           </footer>
+ </section>
+   </main>
+  
+</body>
+
+<script>
+    let menu = document.querySelector('#menu');
+    let navbar = document.getElementById('nav');
+    let close = document.getElementById('close');
+    let welcome = document.getElementById('welcome');
+
+    menu.addEventListener('click',()=>{
+      
+        navbar.classList.add('active');
+    });
+    close.addEventListener('click',()=>{ 
+        
+        navbar.classList.remove('active');
+    });
+    welcome.addEventListener('click',()=>{
+         navbar.classList.add('active');
+    });
+
+   
+</script>
+</html>
