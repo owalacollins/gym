@@ -7,6 +7,12 @@
 body{
     background-color: rgb(5, 23, 10);
 }
+#bg{
+   background: linear-gradient( 120deg,rgb(4, 145, 65)65%,rgb(8, 27, 12)40%);
+}
+#bg1{
+   background: linear-gradient(120deg,rgb(8, 27, 12)65%,rgb(4, 145, 65)40%);
+}
 section{
     max-width: 1200px;
     display: block;
@@ -339,6 +345,38 @@ footer div{
 footer a:hover{
    color: red;
 }
+/* services styling page sarts here ------------ */
+.services{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   width: 100%;
+   color: white;
+}
+.service1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 80%;
+   margin: 10px;
+   padding: 10px;
+}
+.services h3{
+   color: rgb(0, 255, 0);
+   
+}
+.service1 img{
+   width: 30%;
+   display: block;
+   margin: 10px auto;
+   aspect-ratio: 9/6;
+}
+.service1 .servicedesc{
+   margin: 20px;
+   color: white;
+   text-align: justify;
+}
 /* responsive styling-------------------------------------------------------------------------------------------*/
 
  @media (max-width:320px) {
@@ -584,7 +622,42 @@ footer a:hover{
 footer div{
    padding: 0px;
 }
- }
+
+
+ /* services styling page sarts here ------------ */
+.services{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   width: 100%;
+   color: white;
+}
+.service1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   width: 100%;
+   margin: 10px;
+   padding: 10px;
+}
+.services h3{
+   color: rgb(0, 255, 0);
+   
+}
+.service1 img{
+   width: 80%;
+   display: block;
+   margin: 10px auto;
+   aspect-ratio: 9/6;
+}
+.service1 .servicedesc{
+   margin: 20px;
+   color: white;
+   text-align: justify;
+}
+}
  @media only screen and (max-width:529px) and (min-width:320px)  {
    .hed{
       height: 100vh;
@@ -829,7 +902,41 @@ footer a:hover{
 footer div{
  padding: 0px;
 }
+/* services styling page sarts here ------------ */
+.services{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   width: 100%;
+   color: white;
 }
+.service1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   width: 100%;
+   margin: 10px;
+   padding: 10px;
+}
+.services h3{
+   color: rgb(0, 255, 0);
+   
+}
+.service1 img{
+   width: 80%;
+   display: block;
+   margin: 10px auto;
+   aspect-ratio: 9/6;
+}
+.service1 .servicedesc{
+   margin: 20px;
+   color: white;
+   text-align: justify;
+}
+}
+
 /*--------------------------------------------------------------------------responsive screnn--------*/
 @media only screen and (max-width:992px) and (min-width:551px)  {
 
